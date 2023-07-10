@@ -1,0 +1,110 @@
+body{
+    margin:0 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color:#333;
+    /* background-color: red; */
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+nav{
+    background-color: #333;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   display: inline-block;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .form_card{
+    padding: 10px;
+    /* display: inline-block;
+    float: right; */
+  }
+
+  form{
+    display: inline-block;
+  }
+
+  input{
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    display:block;
+    margin:10px;
+    border: 1px solid ;
+  }
+
+  button{
+    height: 25px;
+    background-color: #3dd44c;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    color:#ffff
+  }
+
+  .signup{
+    background-color: hsl(0, 6%, 93%);
+    border-radius: 5px;
+    color: black;
+    padding: 3px;
+  }
+
+
+  .alart_msg{
+    border: 1px solid rgb(160, 160, 160);
+    border-radius:5px;
+    display:inline-block;
+    padding:10px;
+    color:#ffff;
+  }
+
+
